@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+
+.wrapper{
+    
+    width: 1024px;margin: 0 auto;text-align: left;
+}
+
+.flex{
+    display: inline-flex;
+    
+    border: 2px solid #ccc;
+    margin: 10px 0;
+  
+    
+    
+    display: flex;
+    
+    flex-flow:row wrap;
+    
+    justify-content: space-around;
+    
+    
+    align-items: center;
+    
+    align-content: flex-start;
+   
+}
+
+.orde-1{order:1;}
+.orde-2{order:2;}
+.orde-3{order:3;}
